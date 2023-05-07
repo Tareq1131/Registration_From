@@ -1,0 +1,14 @@
+warning: in the working copy of 'app/src/main/res/layout/activity_main.xml', LF will be replaced by CRLF the next time Git touches it
+[1mdiff --git a/app/src/main/res/layout/activity_main.xml b/app/src/main/res/layout/activity_main.xml[m
+[1mindex 735f24b..fba31a0 100644[m
+[1m--- a/app/src/main/res/layout/activity_main.xml[m
+[1m+++ b/app/src/main/res/layout/activity_main.xml[m
+[36m@@ -45,7 +45,7 @@[m
+ [m
+     <EditText[m
+         android:id="@+id/passwordTv2"[m
+[31m-        android:layout_width="match_parent"[m
+[32m+[m[32m        android:layout_width="wrap_content"[m
+         android:layout_height="wrap_content"[m
+         android:hint="Password"[m
+         android:drawableLeft="@drawable/ic_baseline_password_24"[m
